@@ -1,0 +1,840 @@
+login as: root
+root@10.194.36.180's password:
+Access denied
+root@10.194.36.180's password:
+Last failed login: Thu Aug  1 14:10:50 CDT 2019 from 172.16.96.229 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Thu Aug  1 13:48:02 2019 from 172.31.57.14
+[root@nokia-4g-5g ~]# openstack stack list
+Missing value auth-url required for auth plugin password
+[root@nokia-4g-5g ~]# ping 2607:f160:b:1216::4
+ping: 2607:f160:b:1216::4: Address family for hostname not supported
+[root@nokia-4g-5g ~]# ping6 2607:f160:b:1216::4
+PING 2607:f160:b:1216::4(2607:f160:b:1216::4) 56 data bytes
+64 bytes from 2607:f160:b:1216::4: icmp_seq=1 ttl=56 time=5.39 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=2 ttl=56 time=5.71 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=3 ttl=56 time=5.80 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=4 ttl=56 time=19.7 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=5 ttl=56 time=14.4 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=6 ttl=56 time=5.40 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=7 ttl=56 time=5.28 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=8 ttl=56 time=5.36 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=9 ttl=56 time=5.43 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=10 ttl=56 time=5.45 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=11 ttl=56 time=5.48 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=12 ttl=56 time=5.42 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=13 ttl=56 time=5.36 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=14 ttl=56 time=5.30 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=15 ttl=56 time=5.36 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=16 ttl=56 time=5.30 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=17 ttl=56 time=10.1 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=18 ttl=56 time=22.7 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=19 ttl=56 time=17.0 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=20 ttl=56 time=5.48 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=21 ttl=56 time=5.52 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=22 ttl=56 time=7.01 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=23 ttl=56 time=5.42 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=24 ttl=56 time=9.78 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=25 ttl=56 time=7.41 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=26 ttl=56 time=6.85 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=27 ttl=56 time=6.17 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=28 ttl=56 time=21.4 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=29 ttl=56 time=18.2 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=30 ttl=56 time=6.59 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=31 ttl=56 time=13.2 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=32 ttl=56 time=24.5 ms
+
+64 bytes from 2607:f160:b:1216::4: icmp_seq=33 ttl=56 time=8.18 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=34 ttl=56 time=16.9 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=35 ttl=56 time=25.5 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=36 ttl=56 time=5.49 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=37 ttl=56 time=5.36 ms
+^C
+--- 2607:f160:b:1216::4 ping statistics ---
+37 packets transmitted, 37 received, 0% packet loss, time 36057ms
+rtt min/avg/max/mdev = 5.286/9.717/25.558/6.337 ms
+[root@nokia-4g-5g ~]# ping6 -c 6 2607:f160:b:1216::4
+PING 2607:f160:b:1216::4(2607:f160:b:1216::4) 56 data bytes
+64 bytes from 2607:f160:b:1216::4: icmp_seq=1 ttl=56 time=26.9 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=2 ttl=56 time=16.6 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=3 ttl=56 time=15.6 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=4 ttl=56 time=16.0 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=5 ttl=56 time=5.63 ms
+64 bytes from 2607:f160:b:1216::4: icmp_seq=6 ttl=56 time=7.98 ms
+
+--- 2607:f160:b:1216::4 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5007ms
+rtt min/avg/max/mdev = 5.638/14.828/26.967/6.884 ms
+[root@nokia-4g-5g ~]# pwd
+/root
+[root@nokia-4g-5g ~]# ls -ltr
+total 164
+-rw-------.  1 root     root      1454 Sep 26  2018 anaconda-ks.cfg
+drwxrwxr-x.  2 root     root       159 Sep 26  2018 certs
+-rw-r--r--.  1 root     root       572 Nov  5  2018 Nokia-5G-vCU_edged_rc
+-rwxr-xr-x.  1 root     root     49702 Nov  6  2018 cloudStartupController.js.PT4.1.3
+-rw-r--r--.  1 root     root       572 Feb 12 07:53 Nokia-4g-edged_rc
+drwxr-xr-x.  8 99000712 99000712  4096 Feb 15 14:41 Heat Templates
+-rw-r--r--.  1 root     root     77201 Mar  7 13:35 5G19_drop1_1DU_L3_testing_reference_for_WLL_v6(2).xml
+drwxr-xr-x.  6 root     root       229 Apr 19 14:20 5G18A Images
+drwxr-xr-x. 14 root     root      4096 May 14 17:48 Old-Jumphost-files
+drwxr-xr-x.  2 root     root         6 May 14 18:03 SCF
+-rw-r--r--.  1 root     root       589 May 16 11:11 Nokia4G_cBTS19_edged_rc
+drwxr-xr-x.  4 root     root        52 Jun  3 09:58 5G19
+drwxr-xr-x.  3 root     root       126 Jul  1 13:54 Desktop
+drwxr-xr-x.  2 root     root         6 Jul  3 14:24 dir1
+drwxr-xr-x.  8 root     root      4096 Aug  1 11:00 cBTS19
+drwx------.  2 root     root       147 Aug  1 11:26 Downloads
+drwxr-xr-x. 12 root     root      4096 Aug  1 13:53 cBTS18A
+[root@nokia-4g-5g ~]# ls
+5G18A Images                                           certs                              Nokia4G_cBTS19_edged_rc
+5G19                                                   cloudStartupController.js.PT4.1.3  Nokia-4g-edged_rc
+5G19_drop1_1DU_L3_testing_reference_for_WLL_v6(2).xml  Desktop                            Nokia-5G-vCU_edged_rc
+anaconda-ks.cfg                                        dir1                               Old-Jumphost-files
+cBTS18A                                                Downloads                          SCF
+cBTS19                                                 Heat Templates
+[root@nokia-4g-5g ~]# cd 5G19
+[root@nokia-4g-5g 5G19]# cd ..
+[root@nokia-4g-5g ~]# cd 5G1
+5G18A Images/                                          5G19_drop1_1DU_L3_testing_reference_for_WLL_v6(2).xml
+5G19/
+[root@nokia-4g-5g ~]# cd Heat\ Templates/
+[root@nokia-4g-5g Heat Templates]# cd ..
+[root@nokia-4g-5g ~]# cd SCF\ /
+[root@nokia-4g-5g SCF ]# cd ..
+[root@nokia-4g-5g ~]# ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.194.36.180  netmask 255.255.255.128  broadcast 10.194.36.255
+        inet6 2607:f160:0:3011:cf:fe0:0:3024  prefixlen 64  scopeid 0x0<global>
+        inet6 2607:f160:0:3011:21a:4aff:fe16:15c  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::21a:4aff:fe16:15c  prefixlen 64  scopeid 0x20<link>
+        ether 00:1a:4a:16:01:5c  txqueuelen 1000  (Ethernet)
+        RX packets 797546710  bytes 300898828179 (280.2 GiB)
+        RX errors 0  dropped 4  overruns 0  frame 0
+        TX packets 1082050750  bytes 721364369147 (671.8 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 578366493  bytes 19469978108018 (17.7 TiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 578366493  bytes 19469978108018 (17.7 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[root@nokia-4g-5g ~]# cd ..
+[root@nokia-4g-5g /]# cd ..
+[root@nokia-4g-5g /]# pwd
+/
+[root@nokia-4g-5g /]# cd .
+[root@nokia-4g-5g /]# cd roo
+-bash: cd: roo: No such file or directory
+[root@nokia-4g-5g /]# cd root
+[root@nokia-4g-5g ~]# pwd
+/root
+[root@nokia-4g-5g ~]# cd ~
+[root@nokia-4g-5g ~]# pwd
+/root
+[root@nokia-4g-5g ~]# ls -ltr
+total 164
+-rw-------.  1 root     root      1454 Sep 26  2018 anaconda-ks.cfg
+drwxrwxr-x.  2 root     root       159 Sep 26  2018 certs
+-rw-r--r--.  1 root     root       572 Nov  5  2018 Nokia-5G-vCU_edged_rc
+-rwxr-xr-x.  1 root     root     49702 Nov  6  2018 cloudStartupController.js.PT4.1.3
+-rw-r--r--.  1 root     root       572 Feb 12 07:53 Nokia-4g-edged_rc
+drwxr-xr-x.  8 99000712 99000712  4096 Feb 15 14:41 Heat Templates
+-rw-r--r--.  1 root     root     77201 Mar  7 13:35 5G19_drop1_1DU_L3_testing_reference_for_WLL_v6(2).xml
+drwxr-xr-x.  6 root     root       229 Apr 19 14:20 5G18A Images
+drwxr-xr-x. 14 root     root      4096 May 14 17:48 Old-Jumphost-files
+drwxr-xr-x.  2 root     root         6 May 14 18:03 SCF
+-rw-r--r--.  1 root     root       589 May 16 11:11 Nokia4G_cBTS19_edged_rc
+drwxr-xr-x.  4 root     root        52 Jun  3 09:58 5G19
+drwxr-xr-x.  3 root     root       126 Jul  1 13:54 Desktop
+drwxr-xr-x.  2 root     root         6 Jul  3 14:24 dir1
+drwxr-xr-x.  8 root     root      4096 Aug  1 11:00 cBTS19
+drwx------.  2 root     root       147 Aug  1 11:26 Downloads
+drwxr-xr-x. 12 root     root      4096 Aug  1 13:53 cBTS18A
+[root@nokia-4g-5g ~]# ls n*
+ls: cannot access n*: No such file or directory
+[root@nokia-4g-5g ~]# ls N*
+Nokia4G_cBTS19_edged_rc  Nokia-4g-edged_rc  Nokia-5G-vCU_edged_rc
+[root@nokia-4g-5g ~]# ls Nokia5G*
+ls: cannot access Nokia5G*: No such file or directory
+[root@nokia-4g-5g ~]# ls Nokia-5G*
+Nokia-5G-vCU_edged_rc
+[root@nokia-4g-5g ~]# ls |grep Nokia*
+[root@nokia-4g-5g ~]# ls -ltr  |grep Nokia*
+[root@nokia-4g-5g ~]# ls -ltr  |grep Nokia
+-rw-r--r--.  1 root     root       572 Nov  5  2018 Nokia-5G-vCU_edged_rc
+-rw-r--r--.  1 root     root       572 Feb 12 07:53 Nokia-4g-edged_rc
+-rw-r--r--.  1 root     root       589 May 16 11:11 Nokia4G_cBTS19_edged_rc
+[root@nokia-4g-5g ~]# history -10
+-bash: history: -1: invalid option
+history: usage: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps ar                                                                                   g [arg...]
+[root@nokia-4g-5g ~]# history 10
+  522  ls -ltr
+  523  ls n*
+  524  ls N*
+  525  ls Nokia5G*
+  526  ls Nokia-5G*
+  527  ls |grep Nokia*
+  528  ls -ltr  |grep Nokia*
+  529  ls -ltr  |grep Nokia
+  530  history -10
+  531  history 10
+[root@nokia-4g-5g ~]# history |grep openstack
+    5  openstack network list
+   13  openstack stack list
+   14  openstack stack list
+   15  openstack stack delete cBTS-3023-WLL --wait
+   24  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env   cBTS-3023-WLL --wait
+   27  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env   cBTS-3023-WLL --wait
+   30  openstack stack list
+   36  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+   37  openstack stack delete cBTS-3023-WLL --wait
+   40  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env  cBTS-3023-WLL --wait
+   42  openstack stack delete cBTS-3023-WLL --wait
+   44  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env  cBTS-3023-WLL --wait
+   46  openstack stack delete cBTS-3023-WLL --wait
+   47  openstack stack list
+   62  openstack server group list
+   63  openstack server group show f2e18be4-9027-413f-9e96-5a9093f8f2be
+   68  openstack server list
+   78  openstack stck list
+   79  openstack stack list
+   83  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env  cBTS-3023-WLL --wait
+   84  openstack stacl list
+   85  openstack stack list
+   86  openstack stack delete --wait
+   87  openstack stack delete cBTS-3023-WLL --wait
+   89  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env  cBTS-3023-WLL --wait
+   90  openstack stack list
+   91  openstack stack delete cBTS-3023-WLL --wait
+   93  openstack stack delete cBTS-3023-WLL --wait
+   94  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-ROA_Test.                                                                                   env  cBTS-3023-WLL --wait
+   96  openstack atck lis
+   97  openstack sta ck lis
+   98  openstack stack list
+   99  openstack stack delete  cBTS-3023-WLL --wait
+  104  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  105  openstack stack
+  106  openstack stack failures list
+  107  openstack stack failures list cBTS-3023-WLL
+  110  openstack network list
+  111  [root@nokia-4g-5g HEAT]# openstack stack failures list cBTS-3023-WLL
+  117  openstack stack list
+  118  openstack stack delete cBTS-3023-WLL
+  119  openstack stack list
+  128  openstack stack list
+  130   openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env                                                                                     cBTS-3023-WLL --wait
+  134   openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env                                                                                     cBTS-3023-WLL --wait
+  135  openstack stack list
+  136  openstack stack failure list cBTS-3023-WLL
+  138  openstack stack failure list cBTS-3023-WLL
+  139  openstack stack failure list help
+  140  openstack stack failures list help
+  141  openstack stack failures list cBTS-3023-WLL
+  142  openstack stack list
+  143  openstack flavor show BTS-NK-4VCU-DB
+  144  openstack flavor
+  145  openstack flavor list
+  146  openstack flavor show SOLKTXESvRAN-L-NK-CBTS-00-DB-Nokia-VRAN10Nokia-CachingDNS-226                                                                                   9
+  191  openstack stack list
+  192  openstack stack delete cBTS-3023-WLL --wait
+  195  openstack stack list
+  196  openstack stack delete cBTS-3023-WLL --wait
+  197  openstack stack list
+  199  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  201  openstack volume list
+  202  openstack volume list
+  203  openstack volume list
+  204  openstack volume list
+  205  openstack volume list
+  206  openstack volume list
+  207  openstack volume list
+  208  openstack volume list
+  209  openstack volume list
+  210  openstack volume list
+  211  openstack volume list
+  212  openstack volume list
+  213  openstack volume list
+  214  openstack volume list
+  215  openstack volume list
+  216  openstack volume list
+  217  openstack volume list
+  218  openstack volume list
+  219  openstack volume list
+  220  openstack volume list
+  221  openstack volume list
+  223  openstack server list
+  228  openstack stack list
+  229  openstack stack delete cBTS-3023-WLL --wait
+  232  openstack stack list
+  233  openstack stack delete cBTS-3023-WLL --wait
+  234  openstack stack list
+  236  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  240  openstack stack failures list cBTS-3023-WLL
+  254  openstack stack list
+  258  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  260  openstack stack list
+  279  openstack volume list
+  280  openstack volume list
+  286  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  289  openstack volume list
+  290  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  c                                                                                   BTS-3023-WLL --wait
+  291  openstack server list
+  292  openstack flavor list
+  293  openstack flavor list | grep CBTS
+  294  openstack flavor show 02beaabe-0196-48b0-b424-9b1a98a463c4
+  295  openstack flavor show 466b38b0-4abc-4d23-a152-d508b1c72457
+  296  openstack flavor show 6dc31324-237f-4eaa-a1af-354f75020791
+  297  openstack flavor show a1c101d3-4933-4420-a42d-e7ddb3cc3696
+  298  openstack flavor show c056ed06-6f81-4240-bb39-092c5b8229a1
+  299  openstack flavor show c9e73327-9821-4cc9-9025-05409ecfa595
+  300   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  301  openstack stack list
+  302  openstack stack failures list cBTS-3023-WLL --long
+  303   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  304  openstack stack list
+  305  openstack stack delete cBTS-3023-WLL --wait
+  306  openstack stack list
+  307  openstack volume list
+  310  openstack volume list
+  312   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  314   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  315   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  317   openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Na                                                                                   me" -c Host
+  324  openstack
+  325  openstack stack list
+  328  openstack stack output show cBTS-3023-WLL management_ip
+  360  openstack stack list
+  366  openstack stack list
+  367  openstack delete cBTS-3023-WLL --wait
+  368  openstack stack  delete cBTS-3023-WLL --wait
+  369  openstack stack list
+  397  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env –w                                                                                   ait
+  398  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env --                                                                                   wait
+  400  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env  -                                                                                   -wait
+  402  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS CloudBTS_heat_9999_000508-                                                                                   v1.env cBTS-3023-WLL --wait
+  403  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env cB                                                                                   TS-3023-WLL --wait
+  404  openstack stack list
+  409  openstack stack create -t CloudBTS_heat.yaml -e CloudBTS_heat_9999_000508-v1.env cB                                                                                   TS-3023-WLL --wait
+  412  openstack output show cBTS-3023-WLL management_ip
+  413  openstack stack output show cBTS-3023-WLL management_ip
+  426  openstack stack output show cBTS-3023-WLL management_ip
+  450  openstack stack list
+  464  openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Nam                                                                                   e" -c Host
+  500  openstack stack list
+  532  history |grep openstack
+[root@nokia-4g-5g ~]# !500
+openstack stack list
+Missing value auth-url required for auth plugin password
+[root@nokia-4g-5g ~]# !404
+openstack stack list
+Missing value auth-url required for auth plugin password
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]# source Nokia-5G-vCU_edged_rc
+[root@nokia-4g-5g ~]# openstack stack list
++------------------------------+---------------------------+-----------------+----------------------+--------------+
+| ID                           | Stack Name                | Stack Status    | Creation Time        | Updated Time |
++------------------------------+---------------------------+-----------------+----------------------+--------------+
+| 46ca2afc-2125-424d-          | TXWLVRAN-Y-NK-GNB-1070001 | CREATE_COMPLETE | 2019-07-19T15:50:15Z | None         |
+| abd7-b34ee722577d            |                           |                 |                      |              |
++------------------------------+---------------------------+-----------------+----------------------+--------------+
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]#
+[root@nokia-4g-5g ~]# !464
+openstack server list --long -c Name -c Status -c "Availability Zone" -c "Image Name" -c Host
++----------------------------+--------+----------------------------+-------------------+------------------------------+
+| Name                       | Status | Image Name                 | Availability Zone | Host                         |
++----------------------------+--------+----------------------------+-------------------+------------------------------+
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-CPIF-0         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-CPUE-0         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-036.so |
+| GNB-1070001-CPNRT-0        |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-CPCL-0         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-CPNB-0         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-UPUE-1         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-UPUE-2         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-UPUE-0         |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-036.so |
+| GNB-1070001-DB-0           |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
+| TXWLVRAN-Y-NK-             | ACTIVE | RAN-NK-X-GNB-              | Zone-N-C          | solktxednce-h-pe4c7cn-038.so |
+| GNB-1070001-OAM-0          |        | 19_5.3135.835-0lnda        |                   | lktxed.vzcpe.net             |
++----------------------------+--------+----------------------------+-------------------+------------------------------+
+[root@nokia-4g-5g ~]# openstack server list
++--------------------------+--------------------------+--------+--------------------------+---------------------------+
+| ID                       | Name                     | Status | Networks                 | Image Name                |
++--------------------------+--------------------------+--------+--------------------------+---------------------------+
+| 02ebd956-c571-4bb8-90d7- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 3707775f8f8f             | GNB-1070001-CPIF-0       |        | NK-03-2293=169.254.2.9;  | 19_5.3135.835-0lnda       |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-02-2244=169.254.1.3;  |                           |
+|                          |                          |        | sriov_a=fd00:a::eb,      |                           |
+|                          |                          |        | fd00:a::57, fd00:a::ea;  |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.15; |                           |
+|                          |                          |        | sriov_b=fd00:b::10a,     |                           |
+|                          |                          |        | fd00:b::101, fd00:b::8e  |                           |
+| 81f330e7-806a-           | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 4bd1-aea5-6dbd4f25cbe2   | GNB-1070001-CPUE-0       |        | NK-02-2244=169.254.1.14; | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::61;      |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.16; |                           |
+|                          |                          |        | sriov_b=fd00:b::111      |                           |
+| 518106d5-58a4-474e-b154- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 0418ec4ff904             | GNB-1070001-CPNRT-0      |        | NK-03-2293=169.254.2.2;  | 19_5.3135.835-0lnda       |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-02-2244=169.254.1.8;  |                           |
+|                          |                          |        | sriov_a=fd00:a::c3;      |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.2;  |                           |
+|                          |                          |        | sriov_b=fd00:b::fc       |                           |
+| 1025525f-b7b8-4572-a5b1- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 59cd071ae7d1             | GNB-1070001-CPCL-0       |        | NK-02-2244=169.254.1.6;  | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::c2;      |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.10; |                           |
+|                          |                          |        | sriov_b=fd00:b::76       |                           |
+| de918ba1-a014-4e95-997a- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 2a90fe4e6609             | GNB-1070001-CPNB-0       |        | NK-02-2244=169.254.1.15; | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::aa;      |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.7;  |                           |
+|                          |                          |        | sriov_b=fd00:b::65       |                           |
+| acfa2359-c244-47a1-a3d1- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| 51ee81660e85             | GNB-1070001-UPUE-1       |        | NK-02-2244=169.254.1.2;  | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::d5,      |                           |
+|                          |                          |        | fd00:a::78, fd00:a::82;  |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.5;  |                           |
+|                          |                          |        | sriov_b=fd00:b::e,       |                           |
+|                          |                          |        | fd00:b::72, fd00:b::66   |                           |
+| fbd82277-3077-4654-9afe- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| df3c4c2b8035             | GNB-1070001-UPUE-2       |        | NK-02-2244=169.254.1.10; | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::72,      |                           |
+|                          |                          |        | fd00:a::2b, fd00:a::4e;  |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.3;  |                           |
+|                          |                          |        | sriov_b=fd00:b::ae,      |                           |
+|                          |                          |        | fd00:b::61, fd00:b::33   |                           |
+| bea7bfa7-c8d8-465c-b33e- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| c866dc49e1f2             | GNB-1070001-UPUE-0       |        | NK-02-2244=169.254.1.7;  | 19_5.3135.835-0lnda       |
+|                          |                          |        | sriov_a=fd00:a::89,      |                           |
+|                          |                          |        | fd00:a::f, fd00:a::a8;   |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.11; |                           |
+|                          |                          |        | sriov_b=fd00:b::1b,      |                           |
+|                          |                          |        | fd00:b::49, fd00:b::48   |                           |
+| b700bc5b-e3ba-401d-a6ed- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-INT-        | RAN-NK-X-GNB-             |
+| d71d2d55263c             | GNB-1070001-DB-0         |        | NK-02-2244=169.254.1.4   | 19_5.3135.835-0lnda       |
+| bf3d4ce4-1fc3-4965-b810- | TXWLVRAN-Y-NK-           | ACTIVE | SOLKTXESvGNB-EDN-NK-OAM- | RAN-NK-X-GNB-             |
+| 854c92866b6d             | GNB-1070001-OAM-0        |        | 01-2136=2607:f160:b:1216 | 19_5.3135.835-0lnda       |
+|                          |                          |        | ::4; SOLKTXESvGNB-INT-   |                           |
+|                          |                          |        | NK-02-2244=169.254.1.9;  |                           |
+|                          |                          |        | sriov_a=fd00:a::49;      |                           |
+|                          |                          |        | SOLKTXESvGNB-INT-        |                           |
+|                          |                          |        | NK-01-2245=169.254.0.6;  |                           |
+|                          |                          |        | sriov_b=fd00:b::54       |                           |
++--------------------------+--------------------------+--------+--------------------------+---------------------------+
+[root@nokia-4g-5g ~]# nova list
++--------------------------------------+-----------------------------------+--------+------------+-------------+-------                                                      -----------------------------------------------------------------------------------------------------------------------                                                      ----------------------------------------------------------------------------------------+
+| ID                                   | Name                              | Status | Task State | Power State | Networ                                                      ks                                                                                                                                                                                                                                                                   |
++--------------------------------------+-----------------------------------+--------+------------+-------------+-------                                                      -----------------------------------------------------------------------------------------------------------------------                                                      ----------------------------------------------------------------------------------------+
+| 1025525f-b7b8-4572-a5b1-59cd071ae7d1 | TXWLVRAN-Y-NK-GNB-1070001-CPCL-0  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.6; sriov_a=fd00:a::c2; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.10; sriov_b=fd00:b::76                                                                                                                                                  |
+| 02ebd956-c571-4bb8-90d7-3707775f8f8f | TXWLVRAN-Y-NK-GNB-1070001-CPIF-0  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-03-2293=169.254.2.9; SOLKTXESvGNB-INT-NK-02-2244=169.254.1.3; sriov_a=fd00:a::eb, fd00:a::57, fd00:a::ea;                                                       SOLKTXESvGNB-INT-NK-01-2245=169.254.0.15; sriov_b=fd00:b::10a, fd00:b::101, fd00:b::8e |
+| de918ba1-a014-4e95-997a-2a90fe4e6609 | TXWLVRAN-Y-NK-GNB-1070001-CPNB-0  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.15; sriov_a=fd00:a::aa; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.7; sriov_b=fd00:b::65                                                                                                                                                  |
+| 518106d5-58a4-474e-b154-0418ec4ff904 | TXWLVRAN-Y-NK-GNB-1070001-CPNRT-0 | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-03-2293=169.254.2.2; SOLKTXESvGNB-INT-NK-02-2244=169.254.1.8; sriov_a=fd00:a::c3; SOLKTXESvGNB-INT-NK-01-                                                      2245=169.254.0.2; sriov_b=fd00:b::fc                                                    |
+| 81f330e7-806a-4bd1-aea5-6dbd4f25cbe2 | TXWLVRAN-Y-NK-GNB-1070001-CPUE-0  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.14; sriov_a=fd00:a::61; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.16; sriov_b=fd00:b::111                                                                                                                                                |
+| b700bc5b-e3ba-401d-a6ed-d71d2d55263c | TXWLVRAN-Y-NK-GNB-1070001-DB-0    | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.4                                                                                                                                                                                                                                    |
+| bf3d4ce4-1fc3-4965-b810-854c92866b6d | TXWLVRAN-Y-NK-GNB-1070001-OAM-0   | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-EDN-NK-OAM-01-2136=2607:f160:b:1216::4; SOLKTXESvGNB-INT-NK-02-2244=169.254.1.9; sriov_a=fd00:a::49; SOLKTXESvGN                                                      B-INT-NK-01-2245=169.254.0.6; sriov_b=fd00:b::54                                        |
+| bea7bfa7-c8d8-465c-b33e-c866dc49e1f2 | TXWLVRAN-Y-NK-GNB-1070001-UPUE-0  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.7; sriov_a=fd00:a::89, fd00:a::f, fd00:a::a8; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.11;                                                       sriov_b=fd00:b::1b, fd00:b::49, fd00:b::48                                             |
+| acfa2359-c244-47a1-a3d1-51ee81660e85 | TXWLVRAN-Y-NK-GNB-1070001-UPUE-1  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.2; sriov_a=fd00:a::d5, fd00:a::78, fd00:a::82; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.5;                                                       sriov_b=fd00:b::e, fd00:b::72, fd00:b::66                                              |
+| fbd82277-3077-4654-9afe-df3c4c2b8035 | TXWLVRAN-Y-NK-GNB-1070001-UPUE-2  | ACTIVE | -          | Running     | SOLKTX                                                      ESvGNB-INT-NK-02-2244=169.254.1.10; sriov_a=fd00:a::72, fd00:a::2b, fd00:a::4e; SOLKTXESvGNB-INT-NK-01-2245=169.254.0.3                                                      ; sriov_b=fd00:b::ae, fd00:b::61, fd00:b::33                                            |
++--------------------------------------+-----------------------------------+--------+------------+-------------+-------                                                      -----------------------------------------------------------------------------------------------------------------------                                                      ----------------------------------------------------------------------------------------+
+[root@nokia-4g-5g ~]# nova flavor-list
++--------------------------------------+------------------------------------+-----------+------+-----------+------+----                                                      ---+-------------+-----------+
+| ID                                   | Name                               | Memory_MB | Disk | Ephemeral | Swap | VCP                                                      Us | RXTX_Factor | Is_Public |
++--------------------------------------+------------------------------------+-----------+------+-----------+------+----                                                      ---+-------------+-----------+
+| 01b004fb-5652-4725-bad5-cd830de44eab | RAN-NK-vCU-CPCL-Nokia-CachingDNS-1 | 4096      | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| 1995e23d-4cf9-4187-811b-5afd88345cd5 | RAN-NK-vCU-UVM-Nokia-CachingDNS-1  | 4096      | 40   | 0         |      | 1                                                           | 1.0         | False     |
+| 2d8c2930-b202-4a31-83eb-07768e9104a1 | Tiny-Normal-SamsungvUSM20          | 16384     | 100  | 0         |      | 4                                                           | 1.0         | True      |
+| 4d106e11-4870-43fb-90ad-810b8e10ab3e | RAN-NK-vCU-SN-Nokia-CachingDNS-1   | 8192      | 100  | 0         |      | 2                                                           | 1.0         | False     |
+| 594011e8-27ce-46bb-b689-fcf7878f0902 | 5gbts_osp_upue                     | 16384     | 40   | 0         |      | 8                                                           | 1.0         | False     |
+| 6bb42f1e-8e33-4b49-baba-a56da4d6a96e | Tiny-Proc-SamsungvUSM20            | 16384     | 100  | 0         |      | 8                                                           | 1.0         | True      |
+| 773c2fb6-0568-4d52-9ac5-f309f960dab5 | RAN-NK-vCU-CPIF-Nokia-CachingDNS-1 | 32768     | 40   | 0         |      | 16                                                          | 1.0         | False     |
+| 88331c31-9b6c-427e-aa49-27c79f20655e | RAN-NK-vCU-CPNB-Nokia-CachingDNS-1 | 8192      | 40   | 0         |      | 2                                                           | 1.0         | False     |
+| 8ea7235b-f314-4676-878e-6a52ee1458f3 | 5gbts_osp_cpcn                     | 16384     | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| 8f7a6a65-1b6e-4372-ac76-99c18ede8afa | netapp-test                        | 8096      | 150  | 0         |      | 12                                                          | 1.0         | True      |
+| 9390258e-a5f3-48ce-8705-09f6c5cba300 | test-normal-c                      | 4096      | 0    | 0         |      | 4                                                           | 1.0         | True      |
+| 94908f9b-7d3d-41c4-96eb-05592d77109b | test-mo                            | 2048      | 100  | 0         |      | 8                                                           | 1.0         | True      |
+| 9b6a893e-fe56-4526-9742-2e2d3baa2284 | raghu-test                         | 16386     | 60   | 0         |      | 4                                                           | 1.0         | True      |
+| a476761a-2ef4-43d3-a395-c7a6261c3e63 | m1.medium                          | 8192      | 40   | 0         |      | 8                                                           | 1.0         | True      |
+| a59bc18e-ce31-442d-9b91-1d133402f4ab | RAN-NK-vCU-OAM-Nokia-CachingDNS-1  | 32768     | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| ashtest                              | auto                               | 16384     | 50   | 0         |      | 2                                                           | 1.0         | True      |
+| b8a11708-2b65-4441-a70c-daf2b39973a5 | test-mo-vran                       | 4086      | 100  | 0         |      | 4                                                           | 1.0         | True      |
+| bf079a0c-e86b-4ee9-8dde-7183d2197b4b | RAN-NK-vCU-UPUE-Nokia-CachingDNS-1 | 16384     | 40   | 0         |      | 8                                                           | 1.0         | False     |
+| c00f4ec9-afe0-4c4b-81bf-df3b558e9a25 | farhan-test-v2nc3                  | 8192      | 20   | 0         |      | 2                                                           | 1.0         | True      |
+| c2aae129-c77a-4642-a311-6223e7a676f5 | 5gbts_osp_db                       | 12208     | 20   | 0         |      | 1                                                           | 1.0         | False     |
+| c34a18ee-3b45-42ec-8264-12cf4fc00e08 | 5gbts_osp_oam                      | 16384     | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| c3c4847d-7c94-46f4-bd76-9de7ee7ba8cc | 5gbts_osp_cpif                     | 18432     | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| c6ade5ae-c00e-4321-8c16-9d565b505e78 | RAN-NK-vCU-DB-Nokia-CachingDNS-1   | 16384     | 20   | 0         |      | 2                                                           | 1.0         | False     |
+| c78ec7ce-7ea1-405c-9c97-84b9148cebdc | test-mo-huge-page                  | 16384     | 100  | 0         |      | 8                                                           | 1.0         | True      |
+| c82c390c-ac55-4773-90cc-b5a1c2c00d2d | mekatest                           | 16386     | 50   | 0         |      | 8                                                           | 1.0         | True      |
+| cb0ed3a5-2229-43d2-a91d-63421db0cd19 | RAN-NK-vCU-CPCU-Nokia-CachingDNS-1 | 16384     | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| d2fb5cfa-bbcb-4252-9d0d-a46d6de47aa4 | plf-test-1                         | 49152     | 20   | 0         |      | 4                                                           | 1.0         | True      |
+| e1a6fd31-3f40-4574-86cf-44b543d13591 | 5gbts_osp_cpue                     | 16384     | 40   | 0         |      | 2                                                           | 1.0         | False     |
+| e3ecd459-5cc3-4110-a0a3-a057702a1633 | 5gbts_osp_cpcl                     | 4096      | 40   | 0         |      | 4                                                           | 1.0         | False     |
+| e60dd9fc-0f6a-49e3-9c25-aab947397dad | 5gbts_osp_cpnb                     | 8192      | 40   | 0         |      | 2                                                           | 1.0         | False     |
+| feab8fbc-9bfa-4cc3-80c1-6a5786a896d2 | RAN-NK-vCU-CPNRT                   | 16386     | 40   | 0         |      | 4                                                           | 1.0         | False     |
++--------------------------------------+------------------------------------+-----------+------+-----------+------+----                                                      ---+-------------+-----------+
+[root@nokia-4g-5g ~]# nova flavor-list |grep -i 5GBTS
+| 594011e8-27ce-46bb-b689-fcf7878f0902 | 5gbts_osp_upue                     | 16384     | 40   | 0         |      | 8     | 1.0         | False     |
+| 8ea7235b-f314-4676-878e-6a52ee1458f3 | 5gbts_osp_cpcn                     | 16384     | 40   | 0         |      | 4     | 1.0         | False     |
+| c2aae129-c77a-4642-a311-6223e7a676f5 | 5gbts_osp_db                       | 12208     | 20   | 0         |      | 1     | 1.0         | False     |
+| c34a18ee-3b45-42ec-8264-12cf4fc00e08 | 5gbts_osp_oam                      | 16384     | 40   | 0         |      | 4     | 1.0         | False     |
+| c3c4847d-7c94-46f4-bd76-9de7ee7ba8cc | 5gbts_osp_cpif                     | 18432     | 40   | 0         |      | 4     | 1.0         | False     |
+| e1a6fd31-3f40-4574-86cf-44b543d13591 | 5gbts_osp_cpue                     | 16384     | 40   | 0         |      | 2     | 1.0         | False     |
+| e3ecd459-5cc3-4110-a0a3-a057702a1633 | 5gbts_osp_cpcl                     | 4096      | 40   | 0         |      | 4     | 1.0         | False     |
+| e60dd9fc-0f6a-49e3-9c25-aab947397dad | 5gbts_osp_cpnb                     | 8192      | 40   | 0         |      | 2     | 1.0         | False     |
+[root@nokia-4g-5g ~]# nova flavor-list |grep -i CPNRT
+| feab8fbc-9bfa-4cc3-80c1-6a5786a896d2 | RAN-NK-vCU-CPNRT                   | 16386     | 40   | 0         |      | 4     | 1.0         | False     |
+[root@nokia-4g-5g ~]# neutron net-list
++--------------------------------------+----------------------------------+------------------------------------------------------------+
+| id                                   | name                             | subnets                                                    |
++--------------------------------------+----------------------------------+------------------------------------------------------------+
+| 07f78cf0-8e17-46e3-88b2-5c76b3f7d5f3 | SOLKTXESvGNB-INT-NK-02-2244      | 0d549e77-af76-429e-b89f-d0c7f4a29180 169.254.1.0/24        |
+| 1306dcf5-72f9-4ceb-82db-758ede2c66e9 | SOLKTXESvGNB-EDN-NK-OAM-01-2136  | 0ee270fe-7e7b-4f9e-bf17-2bdb00f9c902 2607:f160:b:1072::/64 |
+|                                      |                                  | cdf97bfd-2769-401d-97bc-1d922dc785a8 2607:f160:b:1216::/64 |
+| 13b2940a-5cc2-4828-b970-1ff9272845dc | SOLKTXLBvMME-L-EC-X-X-RAN-3123   | 3104fe00-4aea-43b5-9661-52bc3ae26cfc 2607:f160:b:332d::/64 |
+| 3e4b054c-8ecc-4590-8a89-b0990bb4aa89 | SOLKTXESvGNB-EDN-NK-F1M-02-2138  | e653c32f-5291-4e44-9a8e-c593e2b8951a 2607:f160:b:1218::/64 |
+| 3ef2e8a8-f1fb-4a65-97bf-0b8ab03b5f70 | SOLKTXESVPNC-L-CI-ORC-3059       | ead1974f-11f8-4444-a9b3-2b2d98e096cd 172.21.8.64/27        |
+| 4235102f-399c-4348-a7cf-9bb9a815cfd6 | SOLKTXLBvMME-L-EC-X-X-WSN-3126   | 9da2dea1-0afd-4a6e-8b52-6c3a2590aed4 172.18.25.56/29       |
+|                                      |                                  | e25688a3-c387-4f58-8fe1-df36fdcbca9e 2607:f160:b:6063::/64 |
+| 46099622-f5dd-431c-8952-149d03570955 | sriov_d                          | 16ee6bdc-eb19-4ef8-bb05-7cce621b4a1c fd00:d::/32           |
+| 52d7d379-4e0d-401b-902f-20b8d6b2f0ac | SOLKTXLBvMME-L-EC-X-X-WSN-3116   | 4f02ec24-dbf2-407c-af6b-0fa4330f1992 172.18.25.48/29       |
+|                                      |                                  | 717e6a37-f075-4c7d-8498-f118fee2ed00 2607:f160:b:6062::/64 |
+| 5334927f-f5d8-4ad1-ad8e-a27c59b64aaa | SOLKTXLBvMME-L-EC-X-X-RAN-3117   | ce6a28ff-68d4-4ab8-86fc-da0f8dba50c6 2607:f160:b:332c::/64 |
+| 5dfebd0b-e601-4afe-9faa-9e08d82c5761 | SOLKTXESvGNB-INT-NK-01-2245      | 6eaf65c2-eb3c-404d-ae66-1e7c4c14dfe2 169.254.0.0/24        |
+| 5f5d0acf-5b30-4146-9ba9-602359ca9f35 | SOLKTXLBvMME-L-EC-X-X-EDN-3122   | 3811f068-9426-4482-8659-98584b751c80 172.17.16.0/29        |
+|                                      |                                  | ea60c8c2-bc74-41f2-8e7c-146d7f464ca6 2607:f160:b:1060::/64 |
+| 6579951f-728f-424e-9af3-9ee80fe2a4ad | SOLKTXLBvMME-L-EC-X-X-EDN-3125   | a1f754fa-c178-4f60-b50b-cc61f6e236ce 172.17.16.8/29        |
+|                                      |                                  | d1dbde3f-ea10-45f1-80a1-4f45a4aa2289 2607:f160:b:1061::/64 |
+| 6eed9ce8-dc9e-4cf3-824e-892ec1753451 | SOLKTXESVPNC-L-CI-EDN-2145       | 9d262f0f-b835-4501-b28f-547209a18bdc 172.17.24.0/28        |
+| 7db68e29-1550-451e-9bca-c162a47cecd0 | sriov_b                          | e7de05fe-caac-41e6-91f6-ae79c036781d fd00:b::/32           |
+| 7efe2d5e-508c-47df-8e98-18720eaf0f4a | SOLKTXESvGNB-EDN-NK-F1M-01-2137  | 0764bb8c-2ae6-4df0-bfa1-d140451ac78c 2607:f160:b:1217::/64 |
+| 83898e96-21e8-4dfd-9db0-648fed11c243 | SOLTXTX01vMME-L-NK-X-X-EDN-942v6 | d1698efb-22ce-4555-b2b3-c4fbd4ee578e 2607:f160:b:106d::/64 |
+| 87ae212c-4595-4aa3-b49e-f646f749126b | tempest-test-net                 | 32f7f699-811a-4b46-a202-ebd9d2a5e55c 10.1.1.0/24           |
+|                                      |                                  | 3c317dfd-2a4b-4dd1-9372-f33bd56d969a 2607:f160:b:1216::/64 |
+| 9dcdc509-c130-43d4-8cdb-3ddf5eebe4d0 | sriov_a                          | 02a6a435-c36f-4fcb-91cd-4bb7477af6dd fd00:a::/32           |
+| c12028d2-89e4-4ce8-aeb4-447666504ac8 | SOLTXTX01vMME-L-NK-X-X-EDN-941v6 | 407c70ba-02a8-4c2a-bcb7-8fac542e6938 2607:f160:b:106c::/64 |
+|                                      |                                  | 63b3997b-0c41-4e1e-a188-d47f626bb03e 172.21.8.224/27       |
+| d0380de4-dbc4-46cb-8cfb-25d331fd5f4a | SOLKTXESvGNB-INT-NK-03-2293      | 1cf61b91-15f1-4fa6-a390-dc126bd4c427 169.254.2.0/24        |
+| fb55d2ff-2d84-4c5e-bed7-31d0c7d8e86d | sriov_c                          | 15499965-514a-4496-ac1f-2c8452764760 fd00:c::/32           |
++--------------------------------------+----------------------------------+------------------------------------------------------------+
+[root@nokia-4g-5g ~]# neutron net-list| grep GB
+[root@nokia-4g-5g ~]# neutron net-list| grep GNB
+| 07f78cf0-8e17-46e3-88b2-5c76b3f7d5f3 | SOLKTXESvGNB-INT-NK-02-2244      | 0d549e77-af76-429e-b89f-d0c7f4a29180 169.254.1.0/24        |
+| 1306dcf5-72f9-4ceb-82db-758ede2c66e9 | SOLKTXESvGNB-EDN-NK-OAM-01-2136  | 0ee270fe-7e7b-4f9e-bf17-2bdb00f9c902 2607:f160:b:1072::/64 |
+| 3e4b054c-8ecc-4590-8a89-b0990bb4aa89 | SOLKTXESvGNB-EDN-NK-F1M-02-2138  | e653c32f-5291-4e44-9a8e-c593e2b8951a 2607:f160:b:1218::/64 |
+| 5dfebd0b-e601-4afe-9faa-9e08d82c5761 | SOLKTXESvGNB-INT-NK-01-2245      | 6eaf65c2-eb3c-404d-ae66-1e7c4c14dfe2 169.254.0.0/24        |
+| 7efe2d5e-508c-47df-8e98-18720eaf0f4a | SOLKTXESvGNB-EDN-NK-F1M-01-2137  | 0764bb8c-2ae6-4df0-bfa1-d140451ac78c 2607:f160:b:1217::/64 |
+| d0380de4-dbc4-46cb-8cfb-25d331fd5f4a | SOLKTXESvGNB-INT-NK-03-2293      | 1cf61b91-15f1-4fa6-a390-dc126bd4c427 169.254.2.0/24        |
+[root@nokia-4g-5g ~]# ssh serviceuser@
+ssh: Could not resolve hostname : Name or service not known
+[root@nokia-4g-5g ~]# ssh serviceuser@
+ssh: Could not resolve hostname : Name or service not known
+[root@nokia-4g-5g ~]# ssh serviceuser@2607:f160:b:1216::4
+
+You are about to access a private system. This system is for the use of authorized users only. All connections are logged to the extent and by means acceptable by the local legislation. Any unauthorized access or access attempts may be punished to the fullest extent possible under the applicable local legislation.
+Password:
+Authentication failed.
+[root@nokia-4g-5g ~]# ssh serviceuser@2607:f160:b:1216::4
+
+You are about to access a private system. This system is for the use of authorized users only. All connections are logged to the extent and by means acceptable by the local legislation. Any unauthorized access or access attempts may be punished to the fullest extent possible under the applicable local legislation.
+Password:
+
+You are about to access a private system. This system is for the use of authorized users only. All connections are logged to the extent and by means acceptable by the local legislation. Any unauthorized access or access attempts may be punished to the fullest extent possible under the applicable local legislation.
+Last login: Wed Jul 31 12:14:52 CDT 2019 from 2607:f160:10:8201:ce:ff9:0:1 on SSH
+Last failed login: Thu Aug  1 14:14:38 CDT 2019 from 2607:f160:10:8201:ce:ff9:0:1 on SSH
+There were 7 failed login attempts since the last successful login.
+
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > ls -ltr
+Command not found
+ls -ltr
+^
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > cls
+Command not found
+cls
+^
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > show software version all
+TXWLVRAN-Y-NK-GNB-1070001-CPCL-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-CPIF-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-CPNB-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-CPNRT-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-CPUE-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-DB-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-OAM-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-0 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-1 5G19_5.3135.835-0lnd9
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-2 5G19_5.3135.835-0lnd9
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > start troubleshooting health-check verbocity detail
+Parameter not found
+start troubleshooting health-check verbocity detail
+-----------------------------------^
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > start troubleshooting health-check verbosity detail
+Parameter value or dynamic symbol value does not match constraint(s) or list of values
+start troubleshooting health-check verbosity detail
+---------------------------------------------^
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > start troubleshooting health-check verbosity detailed
+Note: This command might take a long time before showing any results.
+Please wait.
+
+Network element : TXWLVRAN-Y-NK-GNB-1070001
+Start time      : 2019-08-01 20:16:35.389462+00:00 (UTC)
+End time        : 2019-08-01 20:16:46.281811+00:00 (UTC)
+Passed nodes    : 7
+Failed nodes    : 3
+Passed checks   : 27
+Failed checks   : 3
+Result          : Warning
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-CPCL-0
+Start time      : 2019-08-01 20:16:39.853710+00:00 (UTC)
+End time        : 2019-08-01 20:16:42.243661+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 5%
+  Memory load check         OK: Load:14.98%;Memory usage under limit!
+                            Memory total:3948 MB; Memory used:591 MB; Memor
+                            y load:14.98%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-CPIF-0
+Start time      : 2019-08-01 20:16:37.877472+00:00 (UTC)
+End time        : 2019-08-01 20:16:38.201033+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 31%
+  Memory load check         OK: Load:17.23%;Memory usage under limit!
+                            Memory total:18060 MB; Memory used:3111 MB; Mem
+                            ory load:17.23%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-CPNB-0
+Start time      : 2019-08-01 20:16:37.789384+00:00 (UTC)
+End time        : 2019-08-01 20:16:38.145196+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 5%
+  Memory load check         OK: Load:7.28%;Memory usage under limit!
+                            Memory total:7981 MB; Memory used:580 MB; Memor
+                            y load:7.28%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-CPNRT-0
+Start time      : 2019-08-01 20:16:36.130568+00:00 (UTC)
+End time        : 2019-08-01 20:16:36.357475+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 26%
+  Memory load check         OK: Load:18.33%;Memory usage under limit!
+                            Memory total:16044 MB; Memory used:2941 MB; Mem
+                            ory load:18.33%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-CPUE-0
+Start time      : 2019-08-01 20:16:37.264742+00:00 (UTC)
+End time        : 2019-08-01 20:16:38.192733+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 10%
+  Memory load check         OK: Load:3.77%;Memory usage under limit!
+                            Memory total:16045 MB; Memory used:605 MB; Memo
+                            ry load:3.77%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-DB-0
+Start time      : 2019-08-01 20:16:36.137071+00:00 (UTC)
+End time        : 2019-08-01 20:16:36.362723+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 2%
+  Memory load check         OK: Load:1.88%;Memory usage under limit!
+                            Memory total:11933 MB; Memory used:224 MB; Memo
+                            ry load:1.88%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-OAM-0
+Start time      : 2019-08-01 20:16:45.963285+00:00 (UTC)
+End time        : 2019-08-01 20:16:46.222906+00:00 (UTC)
+Passed checks   : 3
+Failed checks   : 0
+Result          : Ok
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            OK: CPU usage under limit. Load 35%
+  Memory load check         OK: Load:9.69%;Memory usage under limit!
+                            Memory total:16044 MB; Memory used:1554 MB; Mem
+                            ory load:9.69%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-UPUE-0
+Start time      : 2019-08-01 20:16:38.159664+00:00 (UTC)
+End time        : 2019-08-01 20:16:38.537091+00:00 (UTC)
+Passed checks   : 2
+Failed checks   : 1
+Result          : Warning
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            WARNING: CPU usage warning! Load 64%
+  Memory load check         OK: Load:32.83%;Memory usage under limit!
+                            Memory total:16044 MB; Memory used:5267 MB; Mem
+                            ory load:32.83%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-UPUE-1
+Start time      : 2019-08-01 20:16:37.300903+00:00 (UTC)
+End time        : 2019-08-01 20:16:39.852396+00:00 (UTC)
+Passed checks   : 2
+Failed checks   : 1
+Result          : Warning
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            WARNING: CPU usage warning! Load 64%
+  Memory load check         OK: Load:32.77%;Memory usage under limit!
+                            Memory total:16044 MB; Memory used:5256 MB; Mem
+                            ory load:32.77%
+
+Node            : TXWLVRAN-Y-NK-GNB-1070001-UPUE-2
+Start time      : 2019-08-01 20:16:38.280720+00:00 (UTC)
+End time        : 2019-08-01 20:16:39.886179+00:00 (UTC)
+Passed checks   : 2
+Failed checks   : 1
+Result          : Warning
+
+  Check                     Information
+  ----------------------    --------------------------------------------------
+  systemd_services_check    OK: No failed systemd services
+  CPU load check            WARNING: CPU usage warning! Load 63%
+  Memory load check         OK: Load:32.88%;Memory usage under limit!
+                            Memory total:16044 MB; Memory used:5274 MB; Mem
+                            ory load:32.88%
+
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  >  set user username toor4nsn
+Password:
+[root@TXWLVRAN-Y-NK-GNB-1070001-OAM-0:/home/toor4nsn]
+# id
+uid=0(root) gid=10000(toor4nsn) groups=10000(toor4nsn)
+[root@TXWLVRAN-Y-NK-GNB-1070001-OAM-0:/home/toor4nsn]
+# dvmcli -n
+TXWLVRAN-Y-NK-GNB-1070001-CPCL-0
+TXWLVRAN-Y-NK-GNB-1070001-CPIF-0
+TXWLVRAN-Y-NK-GNB-1070001-CPNB-0
+TXWLVRAN-Y-NK-GNB-1070001-CPNRT-0
+TXWLVRAN-Y-NK-GNB-1070001-CPUE-0
+TXWLVRAN-Y-NK-GNB-1070001-DB-0
+TXWLVRAN-Y-NK-GNB-1070001-OAM-0
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-0
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-1
+TXWLVRAN-Y-NK-GNB-1070001-UPUE-2
+[root@TXWLVRAN-Y-NK-GNB-1070001-OAM-0:/home/toor4nsn]
+# ssh CPIF-0.local
+
+USAGE OF THE ROOT ACCOUNT AND THE FULL BASH IS RECOMMENDED ONLY FOR LIMITED USE. PLEASE USE A NON-ROOT ACCOUNT AND THE SCLI SHELL (fsclish) AND/OR LIMITED BASH SHELL.
+
+Read /opt/nokia/share/security/readme_root.txt for more details.
+
+[root@TXWLVRAN-Y-NK-GNB-1070001-CPIF-0:/root]
+# ssh UPUE-0.local
+Warning: Permanently added 'upue-0.local' (RSA) to the list of known hosts.
+
+USAGE OF THE ROOT ACCOUNT AND THE FULL BASH IS RECOMMENDED ONLY FOR LIMITED USE. PLEASE USE A NON-ROOT ACCOUNT AND THE SCLI SHELL (fsclish) AND/OR LIMITED BASH SHELL.
+
+Read /opt/nokia/share/security/readme_root.txt for more details.
+
+[root@TXWLVRAN-Y-NK-GNB-1070001-UPUE-0:/root]
+# ssh upue-2.local
+Warning: Permanently added 'upue-2.local' (RSA) to the list of known hosts.
+
+USAGE OF THE ROOT ACCOUNT AND THE FULL BASH IS RECOMMENDED ONLY FOR LIMITED USE. PLEASE USE A NON-ROOT ACCOUNT AND THE SCLI SHELL (fsclish) AND/OR LIMITED BASH SHELL.
+
+Read /opt/nokia/share/security/readme_root.txt for more details.
+
+[root@TXWLVRAN-Y-NK-GNB-1070001-UPUE-2:/root]
+# exit
+logout
+Connection to upue-2.local closed.
+[root@TXWLVRAN-Y-NK-GNB-1070001-UPUE-0:/root]
+# exit
+logout
+Connection to upue-0.local closed.
+[root@TXWLVRAN-Y-NK-GNB-1070001-CPIF-0:/root]
+# exit
+logout
+Connection to cpif-0.local closed.
+[root@TXWLVRAN-Y-NK-GNB-1070001-OAM-0:/home/toor4nsn]
+# exit
+logout
+serviceuser@TXWLVRAN-Y-NK-GNB-1070001-OAM-0 [TXWLVRAN-Y-NK-GNB-1070001]  > exit
+
+Connection to 2607:f160:b:1216::4 closed.
+[root@nokia-4g-5g ~]#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
