@@ -12,56 +12,6 @@ ping: 2607:f160:b:1216::4: Address family for hostname not supported
 [root@nokia-4g-5g ~]# ping6 2607:f160:b:1216::4
 PING 2607:f160:b:1216::4(2607:f160:b:1216::4) 56 data bytes
 64 bytes from 2607:f160:b:1216::4: icmp_seq=1 ttl=56 time=5.39 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=2 ttl=56 time=5.71 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=3 ttl=56 time=5.80 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=4 ttl=56 time=19.7 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=5 ttl=56 time=14.4 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=6 ttl=56 time=5.40 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=7 ttl=56 time=5.28 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=8 ttl=56 time=5.36 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=9 ttl=56 time=5.43 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=10 ttl=56 time=5.45 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=11 ttl=56 time=5.48 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=12 ttl=56 time=5.42 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=13 ttl=56 time=5.36 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=14 ttl=56 time=5.30 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=15 ttl=56 time=5.36 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=16 ttl=56 time=5.30 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=17 ttl=56 time=10.1 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=18 ttl=56 time=22.7 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=19 ttl=56 time=17.0 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=20 ttl=56 time=5.48 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=21 ttl=56 time=5.52 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=22 ttl=56 time=7.01 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=23 ttl=56 time=5.42 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=24 ttl=56 time=9.78 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=25 ttl=56 time=7.41 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=26 ttl=56 time=6.85 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=27 ttl=56 time=6.17 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=28 ttl=56 time=21.4 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=29 ttl=56 time=18.2 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=30 ttl=56 time=6.59 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=31 ttl=56 time=13.2 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=32 ttl=56 time=24.5 ms
-
-64 bytes from 2607:f160:b:1216::4: icmp_seq=33 ttl=56 time=8.18 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=34 ttl=56 time=16.9 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=35 ttl=56 time=25.5 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=36 ttl=56 time=5.49 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=37 ttl=56 time=5.36 ms
-^C
---- 2607:f160:b:1216::4 ping statistics ---
-37 packets transmitted, 37 received, 0% packet loss, time 36057ms
-rtt min/avg/max/mdev = 5.286/9.717/25.558/6.337 ms
-[root@nokia-4g-5g ~]# ping6 -c 6 2607:f160:b:1216::4
-PING 2607:f160:b:1216::4(2607:f160:b:1216::4) 56 data bytes
-64 bytes from 2607:f160:b:1216::4: icmp_seq=1 ttl=56 time=26.9 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=2 ttl=56 time=16.6 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=3 ttl=56 time=15.6 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=4 ttl=56 time=16.0 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=5 ttl=56 time=5.63 ms
-64 bytes from 2607:f160:b:1216::4: icmp_seq=6 ttl=56 time=7.98 ms
-
 --- 2607:f160:b:1216::4 ping statistics ---
 6 packets transmitted, 6 received, 0% packet loss, time 5007ms
 rtt min/avg/max/mdev = 5.638/14.828/26.967/6.884 ms
